@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="https://live.staticflickr.com/65535/52827384787_440d4d75d7_o.png"> 
+    <script src="script.js"></script>
+    <title>AlperEncyclopædia</title>
+</head>
+<body>
+    <div class="main_title">
+        <span style='border:10px whitesmoke outset; font-size:20px; display: inline-block; background-color: white; padding-inline: 2em;'>
+            <h1><span style="color: navy; text-shadow: 2px 2px rgba(0, 255, 255, 0.5);">A</span><span style="color: maroon; text-shadow: 2px 2px rgba(255, 0, 0, 0.5);">E</span></h1>
+            <h2>Diction begets Profundity</h2>
+        </span>
+    </div>
+    <table class="navigation_bar">
+        <tr>
+            <td><a href="index.html"><b><span style="color: rgb(0, 0, 255);">A</span><span style="color: rgb(255, 0, 0);">E</span></b></a></td>
+            <td><a href="articles.html">Articles</a></td>
+            <td><a href="about.html">About</a></td>
+            <td><a href="answers.html">Answers</a></td>
+            <td><a href="additional.html">Additional</a></td>
+        </tr>
+    </table>
+    <div class="body_text">
+        <span style="display: inline-block; background-color: white; box-shadow: 10px 10px rgba(0, 0, 0, 0.5); padding-inline: 2em; width:750px; word-wrap: break-word;">
+            <h3><span style="font-style: italic;">Article Search</span></h3>
+            <h2>Select a letter, to seek those articles.</h2>
+            <select name="lbSelectedLetter" id="lbSelectedLetter">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+            </select>
+            <button onclick="giveWordsList('lbSelectedLetter', 'wordList')">🔎</button>
+            
+            <a href="the_article.html">
+                <ul id="wordList">
+
+                </ul>
+            </a>
+        </span>
+    </div>
+
+</body>
+</html>

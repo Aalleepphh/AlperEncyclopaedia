@@ -1,0 +1,77 @@
+body {
+    color: black;
+    background-image: url(https://st.depositphotos.com/1318696/4945/v/450/depositphotos_49451707-stock-illustration-handwriting-seamless-vector-background.jpg);
+}
+
+.main_title {
+    text-align: center;
+    font-family: Garamond;
+}
+
+.main_title h1{
+    text-align: center;
+    font-family: Garamond;
+}
+
+.main_title h2{
+    font-size: 1em;
+    font-style: italic;
+}
+
+.navigation_bar {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Copperplate';
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    border:5px rgb(46, 46, 46) outset;
+    background-color: black;
+}
+
+.navigation_bar td{
+    border: 2px black outset;
+    background-color: rgb(73, 73, 73);
+}
+
+.navigation_bar td a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation_bar td a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation_bar td:hover{
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
+
+.navigation_bar td:active{
+    border: 2px rgb(230, 230, 230) inset;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.body_text{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    word-wrap: break-word;
+}
+
+#wordList{
+    list-style-type: none;
+    padding:0;
+    text-decoration: underline white;
+    color: black;
+}
+
+#wordList li:hover{
+    background-color: black;
+    text-decoration: underline black;
+    color: white;
+    font-weight: bold;
+}
